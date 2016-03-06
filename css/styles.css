@@ -3,7 +3,7 @@
     padding: 0px;
     margin: 0px;
 }
-html{height:100%;}
+html{height:100%;	font-family: 'Century Gothic','Microsoft YaHei',Verdana;}
 body{
     background-color: #3da6ff;
 
@@ -19,7 +19,7 @@ body{
     color:#ffffff ;
     height:100%;
 }
-.show{background: #000000;  padding-top: 1em; float:left;width:20%;list-style:none; text-align:center; font-size: 2em;
+.show{background: #000000;  padding-top: 1em; float:left;width:20%;list-style:none; text-align:center; font-size: 1.5em;
 
 }
 .show:hover
@@ -35,6 +35,7 @@ body{
 .in-4{background: #7bff5a;}
 .in-5{background: #acdaff;}
 .logo{margin-top: 0.8em; height:100%;
+  box-shadow: 0 0 15px 0 rgba(128, 0, 0, 0.7)
 }
 .logo img{
     border:2px solid;
@@ -43,10 +44,14 @@ body{
 
 }
 .post{
-    margin: 2em;
+    padding:2em;
 }
-.link img{
-    border:none;
+.link{
+    margin-bottom: 10px;
+}
+
+.link i{
+	color: white;
 }
 @media ( max-width:1500px ) {
     .post{margin:1px;}
