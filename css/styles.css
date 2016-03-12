@@ -5,8 +5,8 @@
 }
 html{height:100%;	font-family: 'Century Gothic','Microsoft YaHei',Verdana;}
 body{
-    background-color: #3da6ff;
-
+    background-image: url(http://ww1.sinaimg.cn/large/ec922a76jw1f1uivchiipj21hc0vhahb.jpg);
+    background-size: cover;
 }
 .header{
     color: #ffffff;
@@ -19,13 +19,20 @@ body{
     color:#ffffff ;
     height:100%;
 }
-.show{background: #000000;  padding-top: 1em; float:left;width:20%;list-style:none; text-align:center; font-size: 1.5em;
-
+.show{
+    background: #000000;  
+    padding-top: 1em; 
+    float:left;
+    width:20%;
+    list-style:none; 
+    text-align:center; 
+    font-size: 1.5em;
+    opacity: 0.3;
 }
 .show:hover
 {
-    background: #fa70ff;
     padding-top: 10px;
+    opacity: 0.8;
 }
 
 
