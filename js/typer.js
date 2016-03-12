@@ -1,0 +1,1 @@
+Element.prototype.typer=function(a){var d=this,c=d.innerHTML,xx=c.length,b=0;d.innerHTML="";var e=setInterval(function(){var f=c.substr(b,1);if(f=="<"){b=c.indexOf(">",b)+1}else{b++}d.innerHTML=c.substring(0,b)+(b&1?"_":"");if(b>=xx){clearInterval(e)}},250);return this};

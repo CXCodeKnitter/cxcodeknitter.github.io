@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
 </head>
 <body>
-<div class="header">CodeKnitter</div>
+<div class="header" id="header">CodeKnitter</div>
 <div class="introduction" id="introduction">
     <div class="in-1 show">
     	<div class="logo">
@@ -87,5 +87,7 @@
     </div>
 </div>
 <script type="text/javascript" src="js/canvas-nest.js"></script>
+<script>Element.prototype.typer=function(a){var d=this,c=d.innerHTML,b=0;d.innerHTML="";var e=setInterval(function(){var f=c.substr(b,1);if(f=="<"){b=c.indexOf(">",b)+1}else{b++}d.innerHTML=c.substring(0,b)+(b&1?"_":"");if(b>=c.length){clearInterval(e)}},75);return this};</script>
+<script>document.getElementById('header').typer()</script>
 </body>
 </html>
