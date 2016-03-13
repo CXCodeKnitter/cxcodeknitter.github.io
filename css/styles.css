@@ -5,7 +5,7 @@
 }
 html{height:100%;	font-family: 'Century Gothic','Microsoft YaHei',Verdana;}
 body{
-    background-image: url(http://ww1.sinaimg.cn/large/ec922a76jw1f1uivchiipj21hc0vhahb.jpg);
+    background-image: url(/img/bg.jpg);
     background-size: cover;
 }
 .header{
