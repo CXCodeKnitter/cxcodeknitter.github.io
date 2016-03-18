@@ -79,7 +79,7 @@ body{
     .post{margin:1px;}
 
 }
-@media ( max-width: 1270px ) {
+@media ( max-width: 1000px ) {
     .show{ clear: both; width:100%;}
 
 }

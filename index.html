@@ -92,6 +92,6 @@
 <script type="text/javascript" src="js/canvas-nest.js"></script>
 <script>Element.prototype.typer=function(a){var d=this,c=d.innerHTML,b=0;d.innerHTML="";var e=setInterval(function(){var f=c.substr(b,1);if(f=="<"){b=c.indexOf(">",b)+1}else{b++}d.innerHTML=c.substring(0,b)+(b&1?"_":"");if(b>=c.length){d.innerHTML=c.substring(0,b);clearInterval(e)}},75);return this};</script>
 <script>window.onload=function(){document.getElementById('header').typer();}</script>
-<script>if (window.location.protocol != "https:") {window.location.href = "https:"+window.location.href.substring(window.location.protocol.length);}</script>
+<script>//if (window.location.protocol != "https:") {window.location.href = "https:"+window.location.href.substring(window.location.protocol.length);}</script>
 </body>
 </html>
